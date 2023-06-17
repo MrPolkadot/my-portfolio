@@ -14,22 +14,25 @@
 </head>
 
 <body>
-    <header id="">
+    <header id="top">
         <h1>WELCOME TO MY PORTFOLIO</h1>
-        <img src="" alt="">
+        <img class="header-image" src="./assets/images/pexels-scott-webb-532563.jpg"
+            alt="Abstract pattern made of triangular shapes. Photo by Scott Webb: https://www.pexels.com/photo/view-of-red-pavement-532563/">
         <nav id="navbar">
             <ul class="nav-list">
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#projects">My work</a></li>
-                <li><a href="#contact-info">Contact Me</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-info">Contact me</a></li>
             </ul>
         </nav>
     </header>
     <!--The id's added in the sections are used to link them to the list items from the nav list items.-->
     <main>
         <section id="about-me" class="intro">
-            <h2 class="card-header">Introduction</h2>
             <img class="profile-image" src="./assets/images/profile-image.jpeg" alt="Profile image of Salvador Mejia.">
+            <h2>
+                ABOUT ME
+            </h2>
             <p>
                 Hello, my name is Salvador Mejia. I have a deep passion for anime and find joy in immersing myself in
                 captivating storylines and beautifully crafted animation. When I'm not indulging in anime, you'll often
@@ -43,22 +46,40 @@
                 exploration and personal growth.
             </p>
         </section>
-        <section id="projects">
-            <h2>MY PROJECTS</h2>
-            <ul> <!--The "target=_blank" attribute will open a new tab in the browser when the link is selected.-->
-                <li><a href="https://mrpolkadot.github.io/pre-work-study-guide/" target="_blank"><img src="./assets/images/prework-study-guide.png" alt="A study guide webpage.">Prework study guide</a>
-                </li>
-                <li><a href="https://codepen.io/Mr_Polkadots/full/XWVjdYL" target="_blank"><img src="./assets/images/work-manual.png" alt="An assembly job manual webpage.">Assembly position manual</a>
-                </li>
-                <li><a href="https://codepen.io/Mr_Polkadots/full/zYpzgxy" target="_blank"><img src="./assets/images/japan-trip.png" alt="A webpage screenshot with the title of 'Trip to Japan'.">Japan trip</a></li>
-                <li><a href="https://codepen.io/Mr_Polkadots/full/WNdrKjQ" target="_blank"><img src="./assets/images/game-controller.png" alt="A retro game controller design.">Game controller</a></li>
-            </ul>
+        <section id="projects" class="project-section">
+            <h2>
+                MY PROJECTS
+            </h2>
+            <div class="project-list">
+                <!--The "target=_blank" attribute will open a new tab in the browser when the link is selected.-->
+                <div>
+                    <a class="grow text-box" href="https://mrpolkadot.github.io/pre-work-study-guide/" target="_blank"><img
+                            src="./assets/images/prework-study-guide.png" alt="A study guide webpage."></a>
+                    <p>Study Guide</p>
+                </div>
+                <div>
+                    <a class="text-box" href="https://codepen.io/Mr_Polkadots/full/XWVjdYL" target="_blank"><img
+                            src="./assets/images/work-manual.png" alt="An assembly job manual webpage."></a>
+                    <p>Work Guide</p>
+                </div>
+                <div>
+                    <a class="text-box" href="https://codepen.io/Mr_Polkadots/full/zYpzgxy" target="_blank"><img
+                            src="./assets/images/japan-trip.png"
+                            alt="A webpage screenshot with the title of 'Trip to Japan'."></a>
+                    <p>Trip Blog</p>
+                </div>
+                <div>
+                    <a class="text-box" href="https://codepen.io/Mr_Polkadots/full/WNdrKjQ" target="_blank"><img
+                            src="./assets/images/game-controller.png" alt="A retro game controller design."></a>
+                    <p>Game controller</p>
+                </div>
+            </div>
         </section>
-        <section id="contact-info">
+        <section id="contact-info" class="contact-section">
             <h2>
                 CONTACT INFORMATION
             </h2>
-            <ul>
+            <ul class="contact-list">
                 <li><a href="https://www.linkedin.com/in/salvador-mejia-579785231/" target="_blank">LinkedIn</a></li>
                 <li><a href="https://github.com/MrPolkadot" target="_blank">Github</a></li>
                 <li><a href="https://twitter.com/MrPolkadots" target="_blank">Twitter (@MrPolkadots)</a></li>

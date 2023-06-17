@@ -1,0 +1,143 @@
+* {
+    color: var(--color);
+}
+:root {
+    --color: aqua;
+    --background-color: rgb(95, 10, 10);
+    --text-underline: underline;
+    --font-weight: 300;
+    --padding-top: 50px;
+}
+
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   
+    height: 200px;
+}
+
+#top h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: var(--color);
+    font-weight: var(--font-weight);
+}
+
+.header-image {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+}
+
+#navbar {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    font-weight: var(--font-weight);
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 32px;
+    color: var(--color);
+    transition: 0.5s;
+}
+
+.nav-list a:hover {
+    border-radius: 10px;
+    border: inset 3px var(--background-color);
+    padding: 0 10px;
+}
+
+.intro {
+    padding-top: var(--padding-top);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--background-color);
+}
+
+.intro p {
+    margin: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+h2 {
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(217, 24, 24, 0.287);
+    text-decoration: var(--text-underline);
+}
+
+.profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: outset 10px black;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    padding-top: var(--padding-top);
+    gap: 30px;
+}
+
+.project-list { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-list img {
+    border: solid 5px; 
+    border-radius: 0px;
+}
+
+.project-list img:hover {
+    opacity: 0.5;
+}
+
+.grow img {
+    width: 800px;
+}
+
+.text-box {
+    position: relative;
+}
+
+.project-list p {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 5px;
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-section {
+    text-decoration: var(--text-underline);
+    background-color: var(--background-color);
+}
+
+#message {}
