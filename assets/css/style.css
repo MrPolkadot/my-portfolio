@@ -13,7 +13,7 @@
 
 a {
     text-decoration: none;
-} 
+}
 
 #top {
     display: flex;
@@ -57,6 +57,7 @@ a {
         align-items: center;
         justify-content: space-between;
     }
+
     .nav-list {
         display: flex;
         flex-direction: column;
@@ -116,7 +117,7 @@ h2 {
     gap: 30px;
 }
 
-.project-list { 
+.project-list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -127,7 +128,8 @@ h2 {
 }
 
 .project-list img {
-    border: solid 5px; 
+    height: 200px;
+    border: solid 5px;
     border-radius: 2px;
     box-shadow: 10px 10px 10px rgb(59, 122, 141);
 }
@@ -136,7 +138,7 @@ h2 {
     opacity: 0.8;
 }
 
-@media screen  and (max-width: 1460px) {
+@media screen and (max-width: 1460px) {
     .project-list {
         display: flex;
         flex-direction: column;
@@ -145,11 +147,12 @@ h2 {
 
 .grow {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: 2;
 }
 
 .grow img {
+    height: 500px;
     width: 900px;
 }
 
@@ -187,14 +190,14 @@ h2 {
     background-color: black;
     border-radius: 5px;
     padding: 5px;
-} 
+}
 
 .contact-list a:hover {
     color: red;
     background-color: aqua;
 }
 
-#message { 
+#message {
     background-color: var(--background-color);
     text-align: center;
     padding: 10px;
@@ -202,13 +205,16 @@ h2 {
 
 /* Media queries for the responsive device settings */
 
-@media screen and (min-width:320px) and (max-width:768px){
+/* For small phones and tablets */
+@media screen and (min-width:320px) and (max-width:768px) {
     * {
-        font-size: 1rem; 
+        font-size: 1rem;
         font-weight: 300;
     }
 
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
         font-weight: 500;
     }
 
@@ -226,7 +232,7 @@ h2 {
     }
 
     .grow {
-        flex: 1;
+        flex: 2;
     }
 
     .grow img {
@@ -236,7 +242,7 @@ h2 {
 
     .project-list {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         margin-left: 20%;
@@ -261,7 +267,8 @@ h2 {
 
 }
 
-@media screen and (min-width:769px) and (max-width:1157px){
+/* For laptop screens */
+@media screen and (min-width:769px) and (max-width:1157px) {
     .header-image {
         height: 100%;
         width: auto;
@@ -277,8 +284,13 @@ h2 {
     }
 }
 
-@media screen and (min-width:1451px) {
+/* For large laptop screen devices */
+@media screen and (min-width:1451px) and (max-width:2055px) {
     .header-image {
         width: 100%;
+    }
+
+    .project-list {
+        display: flex;
     }
 }
