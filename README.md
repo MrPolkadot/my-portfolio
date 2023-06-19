@@ -11,8 +11,18 @@ This week's  challenge was to build a portfolio from scratch. Having a portfolio
 
 * https://www.pexels.com/
 
+* https://www.linkedin.com/ 
+
 * Imported font from Google Fonts:
-https://fonts.google.com/
+    https://fonts.google.com/
+
+* Some projects deployed from CodePen
+    https://codepen.io/
+
+* Projects also deployed from GitHub
+    https://github.com/
+
+* https://twitter.com/
 
 ## License
 
