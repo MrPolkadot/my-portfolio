@@ -1,7 +1,13 @@
 # Week 02 Challenge: Portfolio
 
 ## Description
+
 This week's  challenge was to build a portfolio from scratch. Having a portfolio can demonstrate one's skills for potential employers. It showcases some personal information, your work history, and contact information. I built the website by learning **CSS flexbox**, **media queries**, **CSS variables** and **pseudo classes**.
+
+## Webpage Link
+Here is the link for the webpage:
+* https://mrpolkadot.github.io/my-portfolio/
+
 
 ## Credits
 
